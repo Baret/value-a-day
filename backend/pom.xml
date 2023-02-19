@@ -23,8 +23,12 @@
         <main.class>io.ktor.server.netty.EngineMain</main.class>
     </properties>
 
-    <repositories>
-    </repositories>
+    <scm>
+        <connection>scm:git:git@github.com/Baret/value-a-day.git</connection>
+        <developerConnection>scm:git:git@github.com:Baret/value-a-day.git</developerConnection>
+        <url>https://github.com/Baret/value-a-day</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <dependencies>
         <dependency>
